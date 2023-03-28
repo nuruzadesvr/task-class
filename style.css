@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background-img{
+    width: 100%;
+   background-image: url(/contact-bg.png);
+   height: 1000px;
+background-size: cover;
+text-align: center;
+padding-top: 100px;
+}
+
+.left{
+   display: inline-block;
+   width: 500px;
+   padding-right: 50px;
+}
+
+.right{
+    display: inline-block;
+}
+.left-contact-text{
+    font-size: 36px;
+    color: #fff;
+    margin-right: 260px;
+    padding-bottom: 30px;
+    
+}
+.left-input-name{
+    width: 100%;
+    height: 55px;
+}
+
+.left-input-email{
+    width: 100%;
+    height: 55px;
+}
+
+.left-input-phone{
+    width: 100%;
+    height: 55px;
+}
+.left-input-textarea
+{
+    width: 100%;
+    height: 150px;
+}
+.btn:hover {
+    background-color:#ffffff;
+    transition: 0.5s;
+}
+.btn{
+    background-color: rgba(red, green, blue, 0);
+    width: 35%;
+    height: 70px;
+    margin-right: 350px;
+   margin-top: 50px;
+   color: #989696;
+   background: transparent;
+   border: 2px solid white;
+}
